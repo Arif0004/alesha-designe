@@ -1,0 +1,50 @@
+@media only screen and (max-width:480px){
+    /*navbar*/
+    .header-section ul .nav-item .nav-link{
+        color: #fff;
+        
+    }
+    .header-section ul{
+        margin-left: 0px;
+        
+    }
+    #header-section{
+    
+      
+        height: 80vh;
+    }
+
+    .header-section h1{
+        
+        margin-top: 20px;
+        margin-left: 40px;
+        
+    }
+    .header-section p{
+        margin-left: 40px;
+    }
+
+    /*introduction section*/
+    
+    .introduction-section .pad2{
+        padding: 0;
+    }
+
+    .introduction-section .underHead:after{
+        
+        width: 265px;
+        
+    }
+
+    /*footer section*/
+    .footer-sectionn .pad1{
+        padding: 10px;
+    }
+
+    
+    
+
+   
+   
+}
+

@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    text-align: left;
+}
+h1,h2,h3,h4,h5,p{
+    text-align: left;
+}
+section{
+    padding: 30px;
+}
+
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+    /*Header section*/
+
+/*navbar*/
+#navTwo{
+    background-color: #fff;
+    
+}
+#navTwo .nav-item .nav-link{
+    color: #000;
+}
+.header-section .logo-img{
+    height: 40px;
+    margin-left: 70px;
+    
+}
+
+
+.header-section ul{
+    margin-left: 650px;
+    
+}
+.header-section ul .nav-item .nav-link{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:500;
+
+}
+
+#header-section{
+    
+    background-image: url("../images/hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 90vh;
+}
+
+.header-section h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 160px;
+    margin-left: 100px;
+    color: #fff;
+    text-align: left;
+}
+.header-section p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
+    margin-left: 100px;
+}
+
+/*introduction section*/
+.introduction-section h4{
+    text-align: left;
+}
+.introduction-section h1{
+    text-align: left;
+}
+.introduction-section p{
+    text-align: left;
+    color: #777777;
+}
+
+.introduction-section .pad1{
+    padding: 10px 0px;
+}
+.introduction-section .pad2{
+    padding: 0 100px;
+}
+.introduction-section .underHead{
+    text-align: center;
+    position: relative;
+}
+.introduction-section .underHead:after{
+    content: '';
+    position: absolute;
+    width: 370px;
+    height: 1.5px;
+    background:  #f7600e;
+    border-radius: 50px;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+
+/*webDesign section*/
+.webDesign-section{
+    background-color: #F2F2F2;
+}
+.webDesign-section .pad1{
+    padding: 20px;
+}
+.webDesign-section .pad2{
+    padding: 40px;
+}
+.webDesign-section p{
+    font-size: 14px;
+    color:#777777;
+}
+
+/*web devloper*/
+.webDevloper-section{
+    background-color: #ECECEC;
+    
+}
+
+.webDevloper-section .pad1{
+    padding: 20px;
+}
+.webDevloper-section .pad2{
+    padding: 40px;
+}
+.webDevloper-section p{
+    font-size: 14px;
+    color:#777777;
+}
+
+/*mobile section*/
+.mobile-section{
+    background-color: #F2F2F2;
+}
+.mobile-section .pad1{
+    padding: 20px;
+}
+.mobile-section .pad2{
+    padding: 40px;
+}
+.mobile-section p{
+    font-size: 14px;
+    color:#777777;
+}
+
+/*user section*/
+.user-section{
+    background-color: #ECECEC;
+    
+}
+
+.user-section .pad1{
+    padding: 20px;
+}
+.user-section .pad2{
+    padding: 40px;
+}
+.user-section p{
+    font-size: 14px;
+    color:#777777;
+}
+
+
+
+/*digital brand section*/
+.digital-section{
+    background-color: #F2F2F2;
+}
+.digital-section .pad1{
+    padding: 20px;
+}
+.digital-section .pad2{
+    padding: 40px;
+}
+.digital-section p{
+    font-size: 14px;
+    color:#777777;
+}
+
+/*VISIT SECTION*/
+.visit-secton{
+    background-color: #F48120;
+    height: 35vh;
+}
+.visit-secton h3{
+    text-align: center;
+    padding-top: 50px;
+    color: #fff;
+
+}
+.visit-secton a{
+   text-decoration: none;
+   padding: 10px 15px;
+   display: inline-block;
+   background-color: transparent;
+   border-radius: 25px;
+   text-transform: uppercase;
+   color: #fff;
+   font-size: 12px;
+   font-weight: 600;
+   border: 2px solid white;
+   transition: .2s;
+   -webkit-transition: .2s;
+   -moz-transition: .2s;
+   -ms-transition: .2s;
+   -o-transition: .2s;
+}
+.visit-secton a:hover{
+    color:#000;
+    background-color:#FFFFFF;
+   
+}
+
+/*corporate section*/
+.corporate-section h1{
+    margin-top: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.corporate-section h1:after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1.5px;
+    background:  #2250FC;
+    border-radius: 50px;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+.corporate-section p{
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+
+
+/*footer section*/
+.footer-sectionn{
+    background-color: #F8F9FA;
+}
+.footer-sectionn .random{
+    display: flex;
+}
+.footer-sectionn ol{
+    margin-left: -20px;
+    margin-top: -5px;
+}
+.footer-sectionn #social-icon {
+    margin-left: -10px;
+    background-color: red;
+
+}
+.footer-sectionn #social-icons li {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    
+    transition: .6s;
+    -webkit-transition: .6s;
+    -moz-transition: .6s;
+    -ms-transition: .6s;
+    -o-transition: .6s;
+}
+.footer-sectionn #social-icons li a{
+    padding: 5px;
+    line-height: 1.6;
+    font-size: 20px;
+    color: #fff;
+    
+
+}
+
+.footer-sectionn #social-icons li:nth-child(1){
+    background-color: #1877F2;
+}
+.footer-sectionn #social-icons li:nth-child(2){
+   background-color: #1DA1F2;
+}
+.footer-sectionn #social-icons li:nth-child(3){
+   background-color: #4078c0;
+}
+.footer-sectionn #social-icons li:nth-child(4){
+    background-color: #CD201F;
+}
+
+.footer-sectionn h5{
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+.footer-sectionn p,li{
+    font-size: 13px;
+    
+
+    
+}
+
+.footer-sectionn .pad1{
+    padding: 44px;
+}
+.footer-sectionn ul{
+    margin-left: -33px;
+}
+.footer-sectionn ul li {
+    
+    line-height: 2;
+}
+.footer-sectionn ul li a{
+    text-decoration: none;
+    line-height: 2;
+    color: black;
+}
+.footer-sectionn .btn{
+    background-color: #F48120;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.footer-sectionn input{
+    font-size: 14px;
+}
+
+/*designer*/
+.designer-section {
+    background-color: #EFF1F4;
+    height: 9vh;
+}
+.designer-section p{ 
+    text-align: center;
+    padding: 15px;
+    font-size: 13px;
+    color: #777777;
+}
+
+/*Scroll bar*/
+#scroll_top{
+    background-color:#777777;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    padding: 9px 15px;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+
+
+
+
+
